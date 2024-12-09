@@ -1,0 +1,1 @@
+proc correctedProc {a b {epsilon 1e-9}} {if {[expr abs($a - $b)] < $epsilon} {return 1} {return 0}} 
